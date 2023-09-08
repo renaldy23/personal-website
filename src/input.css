@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@layer components {
+  .scroll-header {
+    @apply bg-clean lg:!px-20 md:!px-14 !px-10 !py-5 shadow-lg;
+  }
+}
