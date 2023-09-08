@@ -11,7 +11,7 @@ const menu_icon = document.querySelector('#menu-icon')
 const close_icon = document.querySelector('#close-icon')
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) {
+  if (window.top.scrollY > 50) {
     header.classList.add('scroll-header') // Change to your desired background color
   } else {
     header.classList.remove('scroll-header') // Reset to transparent if not scrolled
