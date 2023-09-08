@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"tailwindcss -i ./src/input.css -o ./public/css/style.css --watch\" \"vite\"",
+    "dev": "concurrently \"tailwindcss -i ./src/input.css -o ./src/css/style.css --watch\" \"vite\"",
     "build": "vite build",
     "preview": "vite preview"
   },
