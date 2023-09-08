@@ -8,3 +8,8 @@
     @apply bg-clean lg:!px-20 md:!px-14 !px-10 !py-5 shadow-lg;
   }
 }
+@layer components {
+  .mobile-nav {
+    @apply flex !w-full justify-center bottom-0 top-0 right-0 !left-0 h-screen absolute bg-clean;
+  }
+}
